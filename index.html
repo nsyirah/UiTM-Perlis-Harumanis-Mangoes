@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UiTM Perlis Harumanis Mangoes</title>
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Poppins:wght@300;600&display=swap" rel="stylesheet">
+    <!-- External CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Pop-up Message (Above) -->
+    <div id="popupMessage" class="popup-message">
+        <p>Your message has been submitted successfully!</p>
+    </div>
+    
+    <header>
+        <div class="header-content">
+            <!-- Main title and description -->
+            <h1>Discover the Taste of UiTM Perlis Harumanis Mangoes</h1>
+            <p>The premium mango of Malaysia, cultivated and celebrated by UiTM Perlis.</p>
+        </div>
+        <nav>
+             <!-- Navigation links -->
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#benefits">Benefits</a></li>
+                <li><a href="#product">Product</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="about" class="section-content about-section">
+            <h2>About Harumanis Mangoes</h2>
+            <p>Harumanis mangoes are celebrated for their exceptional sweetness and unique aroma. Grown exclusively in the state of Perlis, they are known for their premium quality.</p>
+            <p>UiTM Perlis has been instrumental in advancing research and techniques for growing these mangoes, ensuring sustainable farming methods and supporting local farmers.</p>
+        </section>
+
+        <!-- Benefits Section -->
+        <section id="benefits" class="section-content benefits-section">
+            <h2>Health Benefits</h2>
+            <div class="image-grid">
+                <img src="benefit 4.jpg" alt="Health Benefit 1" class="section-image">
+                <img src="benefit 2.jpg" alt="Health Benefit 2" class="section-image">
+                <img src="benefit 3.jpg" alt="Health Benefit 3" class="section-image">
+            </div>
+             <!-- List of benefits -->
+            <div class="benefits-list">
+                <ul>
+                    <li>Rich in Vitamin C and antioxidants.</li>
+                    <li>Promotes digestive health and boosts immunity.</li>
+                    <li>Supports skin health with essential nutrients.</li>
+                </ul>
+            </div>
+        </section>
+
+         <!-- Product Section -->
+        <section id="product" class="section-content product-section">
+            <h2>Culinary Uses</h2>
+            <div class="image-grid">
+                <img src="PRODUCT 1.jpg" alt="Culinary Use 1" class="section-image">
+                <img src="product 2.jpg" alt="Culinary Use 2" class="section-image">
+                <img src="product 3.webp" alt="Culinary Use 3" class="section-image">
+            </div>
+            <!-- List of culinary uses -->
+            <div class="culinary-list">
+                <ul>
+                    <li>Perfect for desserts, smoothies, and beverages.</li>
+                    <li>Used in jams, ice creams, and other food products.</li>
+                    <li>Make vibrant dishes like Mango Acar and Mango Pudding.</li>
+                </ul>
+            </div>
+        </section>
+
+        <section id="contact" class="section-content contact-section">
+            <h2>Contact Us</h2>
+            <form id="contactForm">
+                <input type="text" id="name" name="name" placeholder="Your Name" required>
+                <input type="email" id="email" name="email" placeholder="Your Email" required>
+                <textarea id="message" name="message" placeholder="Your Message" rows="5" required></textarea>
+                <button type="submit">Submit</button>
+            </form>
+        </section>
+
+        
+    </main>
+
+    <!-- Footer Section -->
+    <footer>
+        <!-- Copyright information -->
+        <p>&copy; <span id="year"></span> UiTM Perlis. All Rights Reserved.</p>
+        <p> Date: <span id="date"></span> | Current Time: <span id="time"></span></p>
+    </footer>
+
+     <!-- JavaScript File -->
+    <script src="script.js"></script>
+</body>
+</html>
